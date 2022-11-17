@@ -1,0 +1,20 @@
+.page {
+  padding-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page table tr td {
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.image {
+  width: 90px;
+}
+
+.btn {
+  border: none;
+  background: none;
+}

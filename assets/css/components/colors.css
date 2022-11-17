@@ -1,0 +1,20 @@
+:root {
+  --light-black: #393939;
+  --gray: #595959;
+  --gray-web: #7F7F7F;
+  --quick-silver: #A5A5A5;
+  --white: #fff;
+  --light-grey: #CCCCCC;
+  --cultured: #F2F2F2;
+  --gold: #f4c404;
+
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: 'League Spartan', sans-serif;
+}
+
+.gold {
+  color: var(--gold);
+}

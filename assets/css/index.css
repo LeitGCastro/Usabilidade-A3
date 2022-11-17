@@ -1,0 +1,203 @@
+.home{
+  background: var(--cultured);
+  height: calc(100vh - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.home-content {
+  width: 30rem;
+  margin: 0 5rem 0 12rem;
+}
+
+.title {
+  font-size: 4rem;
+  margin-bottom: -1rem;
+}
+
+.title span {
+  color: var(--gold);
+}
+
+.home-content p {
+  font-size: 1.3rem;
+}
+
+.promo {
+  letter-spacing: 0.2rem;
+  border: 8px dotted var(--gold);
+  padding: 0.5rem;
+}
+
+.home-content button{
+  padding: 1.1rem;
+  border: none;
+  background: var(--gold);
+  border-radius: 0.5rem;
+}
+
+.home-content button:hover {
+  background: var(--white);
+  color: var(--gold);
+}
+/* Shop Section */
+
+.shop {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.product-card {
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.236);
+  border-radius: 0.8rem;
+  background: var(--white);
+  width: 20%;
+  height: fit-content;
+  padding-bottom: 0.8rem;
+}
+
+.product-card img {
+  background: var(--light-grey);
+  border-radius: .8rem .8rem 0 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.236);
+  width: 100%;
+}
+
+.card-content {
+  padding: 0rem 0.8rem 0 0.8rem;
+}
+
+.card-content p {
+  text-align: justify;
+}
+
+.card-content h4 {
+  color: var(--gold);
+}
+
+.card-content h3 {
+  text-align: center;
+  color: var(--light-black);
+}
+
+.card-content ul {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card-price {
+  line-height: 2.3;
+  color: var(--gold);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.card-content button {
+  border: none;
+  border-radius: 0.3rem;
+  background: var(--gold);
+  padding: 0.5rem 0.8rem;
+  color: #fff;
+}
+
+.card-content button:hover {
+  color: #f4c404;
+  background: var(--white);
+  border: 1px solid var(--light-grey);
+}
+
+/* footer */
+
+footer {
+  margin-top: 1rem;
+  height: 3rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.footer-text {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/*-------------------------------------------------------------------
+-Instagram
+-------------------------------------------------------------------*/
+section#insta{
+  padding: 50px;
+}
+.text-center{
+  text-align: center;
+}
+.title-insta{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+  display: inline-flex;
+}
+.ajusta-insta {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+.ajusta-insta figure{
+  margin: 13px 10px 1rem;
+  position: relative;
+}
+.ajusta-insta img{
+  max-width: 100%;
+
+}
+
+.insta-container {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.demo-4:hover .imageinsta {
+    opacity: 0.3;
+}
+
+.demo-4:hover .insta-container {
+    opacity: 1;
+}
+
+.insta-icon {
+    font-size: 75px;
+}
+
+.insta-icon .fab {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    vertical-align: middle;
+}
+
+
+/* Media queries */
+
+@media (max-width: 100) {
+  
+}

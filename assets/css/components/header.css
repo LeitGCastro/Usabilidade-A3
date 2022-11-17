@@ -1,0 +1,32 @@
+header {
+  background: var(--gold);
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--white);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+  position: fixed;
+}
+
+.logo a {
+  color: var(--white);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar li a {
+  color: var(--white);
+  font-size: 1.2rem;
+  padding-bottom: 0.4rem;
+}
+
+.navbar li a:hover {
+  border-bottom: 1px solid;
+}
